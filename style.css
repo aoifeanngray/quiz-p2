@@ -23,4 +23,21 @@ body {
     padding: 10px;
     box-shadow: 0 0 15px 3px;
 }
-
+.btn-grid {
+    display: grid;
+    gap: 12px;
+    margin: 25px;
+}
+.btn {
+    background-color:rgb(135, 165, 189);
+    padding: 7px;
+}
+.btn:hover {
+    border-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px 3px;
+}
+.start-btn, .next-btn {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 10px 15px;
+}

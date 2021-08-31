@@ -48,3 +48,6 @@ body {
     gap: 15px;
     width:auto;
 }
+.hide {
+    display: none;
+}

@@ -67,13 +67,56 @@ function setStatusClass(element, correct) {
 
 const questions = [
     {
-      question: 'What is 2 + 2?',
+      question: 'What is the capital of Poland?',
       answers: [
-        { text: '4', correct: true },
-        { text: '22', correct: false }
+        { text: 'Warsaw', correct: true },
+        { text: 'Lublin', correct: false }
       ]
     },
+{
+  question: 'Which musician’s real name is Reginald Kenneth Dwight?',
+  answers: [
+    { text: 'Elton John', correct: true },
+    { text: 'James Blunt', correct: false }
+  ]
+},
+{
+  question: 'What was the most downloaded app of 2020?',
+  answers: [
+    { text: 'Tik Tok', correct: true },
+    { text: 'Snapchat', correct: false }
+  ]
+},
+{
+  question: 'Europe is separated from Africa by which sea?',
+  answers: [
+    { text: 'Mediterranean Sea', correct: true },
+    { text: 'Pacific Ocean', correct: false }
+  ]
+},
+{
+  question: 'What is the collective name for a group of crows?',
+  answers: [
+    { text: 'Murder', correct: true },
+    { text: 'Clan', correct: false }
+  ]
+},
+{
+  question: 'Which Coronation Street character has been married six times?',
+  answers: [
+    { text: 'Gail Platt', correct: true },
+    { text: 'Sally Webster', correct: false }
+  ]
+},
+{
+  question: 'What is Japanese sake made from?',
+  answers: [
+    { text: 'Rice', correct: true },
+    { text: 'Seaweed', correct: false }
+  ]
+},
 ]
+
 var ss = document.getElementsByClassName('stopwatch');
 
 [].forEach.call(ss, function (s) {

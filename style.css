@@ -43,7 +43,7 @@ body {
     padding: 10px;
     box-shadow: 0 0 15px 3px;
     position: absolute;
-    top: 40%;
+    top: 60%;
     text-align: center;
     width: 80%;
     left: 10%;
@@ -88,13 +88,13 @@ body {
 }
 
 .stopwatch {
-    background-color: rgb(61, 87, 126);
+    background-color: rgb(49, 61, 175);
     border-radius: 5px;
     box-shadow: 0 4px rgba(0, 0, 0, 0.75), 0 0 1px rgba(0, 0, 0, 0.15);
     padding: 10px;
     position: flex;
     left: 0;
-    bottom: 15%;
+    bottom: 0;
     max-width: 100%;
     color: white;
     text-align: center; 
@@ -102,7 +102,7 @@ body {
 
 button {
     margin: 0 5px 4px;
-    padding: 5px 0;
+    padding: 5px 5px;
     border-radius: 5px;
     box-shadow: 0 4px rgba(0, 0, 0, 0.75);
     border: 0;
@@ -120,7 +120,7 @@ button {
 }
 
 .reset {
-    background-color: #55d;
+    background-color: rgb(196, 221, 85);
 }
 
 .display {

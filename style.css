@@ -6,6 +6,7 @@ body {
     justify-content: center;
     margin: 0;
 }
+
 /*Nav bar styling*/
 .navbar {
     text-transform: uppercase;
@@ -19,11 +20,13 @@ body {
     margin: auto;
     font-size: larger;
 }
+
 /*styling for the page links in Nav bar*/
 
 #quiz {
     float: center;
 }
+
 .question {
     font-weight: bolder;
     font-size: larger;
@@ -45,34 +48,84 @@ body {
     width: 80%;
     left: 10%;
 }
+
 .btn-grid {
     display: grid;
     gap: 12px;
     margin: 25px;
 }
+
 .btn {
-    background-color:rgb(135, 165, 189);
+    background-color: rgb(135, 165, 189);
     padding: 7px;
     box-sizing: border-box;
     font-size: 35px;
     font-weight: 550;
 }
+
 .btn:hover {
     border-color: rgb(241, 219, 21);
     box-shadow: 0 0 10px 4px;
 }
-.start-btn, .next-btn {
+
+.start-btn,
+.next-btn {
     font-weight: bold;
     font-size: 40px;
     padding: 10px 15px;
 }
+
 .controls {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    width:auto;
+    width: auto;
 }
+
 .hide {
     display: none;
+}
+
+.stopwatch {
+    background-color: rgb(61, 87, 126);
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.75), 0 0 1px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    position: flex;
+    left: 0;
+    bottom: 15%;
+    max-width: 100%;
+    color: white;
+    text-align: center; 
+}
+
+button {
+    margin: 0 5px 4px;
+    padding: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.75);
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.start {
+    background-color: #5d5;
+}
+
+.stop {
+    background-color: #d55;
+}
+
+.reset {
+    background-color: #55d;
+}
+
+.display {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
 }

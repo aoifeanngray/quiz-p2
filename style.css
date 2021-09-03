@@ -18,7 +18,7 @@ body {
     padding: 20px;
     box-shadow: 0 0 15px 3px;
     margin: auto;
-    font-size: larger;
+    font-size: 40px;
 }
 
 /*styling for the page links in Nav bar*/
@@ -43,7 +43,7 @@ body {
     padding: 10px;
     box-shadow: 0 0 15px 3px;
     position: absolute;
-    top: 60%;
+    top: 40%;
     text-align: center;
     width: 80%;
     left: 10%;
@@ -128,4 +128,30 @@ button {
     font-family: sans-serif;
     text-align: center;
     margin-top: 10px;
+}
+/*media query for small screen size*/
+@media only screen and (max-width: 320px) {
+.container {
+    top: 60%;
+}
+.btn {
+    font-size: 20px;
+}
+.navbar {
+    margin: 0;
+}
+}
+
+/*media query for medium size screen*/
+@media screen and (min-width: 321px) and (max-width: 600px) {
+.container {
+    top: 45%;
+}
+}
+
+/*media query for larger screens size*/
+@media only screen and (min-width: 601px) and (max-width: 1250px) {
+button {
+    font-size: 30px;
+}
 }

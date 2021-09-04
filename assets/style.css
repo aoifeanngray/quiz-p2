@@ -28,6 +28,7 @@ body {
     float: center;
 }
 
+/*styling for question display*/
 .question {
     font-weight: bolder;
     font-size: larger;
@@ -49,7 +50,7 @@ body {
     width: 80%;
     left: 10%;
 }
-
+/*buttons stylings*/
 .btn-grid {
     display: grid;
     gap: 12px;
@@ -87,7 +88,7 @@ body {
 .hide {
     display: none;
 }
-
+/*styling for stopwatch*/
 .stopwatch {
     background-color: rgb(49, 61, 175);
     border-radius: 5px;
@@ -111,7 +112,7 @@ button {
     font-size: 16px;
     font-weight: bold;
 }
-
+/*stopwatch buttons*/
 .start {
     background-color: #5d5;
 }

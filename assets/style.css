@@ -1,4 +1,10 @@
+:root {
+    --hue-neutral: 192;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+  }
 body {
+    --hue: var(--hue-neutral);
     padding: 0;
     background-color: #5e3d8a;
     justify-content: center;
@@ -7,6 +13,13 @@ body {
     margin: 0;
     font-family: roboto, sans serif;
 }
+body.correct {
+    --hue: var(--hue-correct);
+  }
+  
+  body.wrong {
+    --hue: var(--hue-wrong);
+  }
 
 /*Nav bar styling*/
 .navbar {
@@ -21,6 +34,7 @@ body {
     margin: auto;
     font-size: 40px;
 }
+
 
 /*styling for the page links in Nav bar*/
 
@@ -58,7 +72,10 @@ body {
 }
 
 .btn {
+    --hue: var(--hue-neutral);
     background-color: rgb(135, 165, 189);
+    border: 1px solid hsl(var(--hue), 100%, 30%);
+    background-color: hsl(var(--hue), 100%, 50%);
     padding: 7px;
     box-sizing: border-box;
     font-size: 35px;
@@ -69,7 +86,14 @@ body {
     border-color: rgb(241, 219, 21);
     box-shadow: 0 0 10px 4px;
 }
-
+.btn.correct {
+    --hue: var(--hue-correct);
+    color: black;
+  }
+  
+  .btn.wrong {
+    --hue: var(--hue-wrong);
+  }
 .start-btn,
 .next-btn {
     font-weight: bold;

@@ -1,104 +1,191 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Pub Quiz
 
-Welcome USER_NAME,
+Best Pub Quiz for a good time. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+Link to view: [here](https://aoifeanngray.github.io/quiz-p2/)
 
-## Gitpod Reminders
+![responsive image](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/responsive-img.JPG?raw=true)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Porfolio Project 2 
+### Purpose: 
+This website has been created to display the working knowledge of HTML and CSS and Javascript, by providing an interactive Pub Quiz game.
 
-`python3 -m http.server`
+The site is displayed in a manner that provides the user with a simple and functional user experience. The user will be expecting a variation of questions that are interesting and fun, and a hint of a challenge. 
 
-A blue button should appear to click: _Make Public_,
+## User Experience Design: 
+### First time visitor goals: 
+- to easily use the site 
+- to complete a variation of questions
+- to be able to view the site on any device 
 
-Another blue button should appear to click: _Open Browser_.
+### Returning visitor goals:
+- to replay again or play more quizes with future development of the site.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Frequent visitor goals: 
+- to entertain and challenge themselves with various general knowledge questions.
 
-A blue button should appear to click: _Make Public_,
+## Design: 
+The Pub Quiz game is displayed currently on a singular page. 
 
-Another blue button should appear to click: _Open Browser_.
+The color scheme is widely focused on shades of purple. The purple is also complemented by other less intense colors but are very complementing colors. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The pages have a font and back up font of (roboto, sans serif) to style the content of the quiz game. 
 
-To log into the Heroku toolbelt CLI:
+### Site Goals: 
+- to provide a variation of fun and challenging questions. 
+- create a user friendly experience.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Target Audience:
+- Pub goers or people looking for entertainment. 
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### User Goals: 
+- challengee themselves and friends and have fun. 
 
-------
+## Existing Features: 
+## Main page
 
-## Release History
+### Navbar:
+The navbar consists of the link to refresh the page, easy restart option if you do not reach the end of the quiz. 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![navbar](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/navbar.JPG?raw=true)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Section 1 - Main Page: 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The main page's first section is containing an eye catching color combinations and a minimal design.
+ 
+![main page](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/main%20page.JPG?raw=true)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Section 2 - Stopwatch: 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+This section shows the stopwatch available to the user if they would like to challenge themselves and friends to a bit of competition of who is the quickest! It is easy to use and fully functional to track and display throughout the duration of the game.
+![stopwatch](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/stopwatch.JPG?raw=true)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Section 3 - Display of questions:
+Third section displays the questions generated for the quiz. It is a minimal design for ease of viewing and a clear display of the questions being asked. There are always two answers shown, so a 50:50 chance of winning!
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Section 4 - Next button (navigation):
+This function appears as soon as the questions answer has been picked by the use. This allows them to move on to the next question and continue their progress in the quiz game.  
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Secton 5 - Buttons reactive to answer choosen:
+There are two answers available for every question. When the correct answer is choosen it will change to green. Also if the incorrect answer is choosen it will appear red. 
+![questions display](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/questions.JPG?raw=true)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Section 6 - Restart button (navigation): 
+Once the quesstions have been completed you will be given the option to play again. 
+![personal training - membership page](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/restart%20button.JPG?raw=true)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Future Features: 
+- more quizes available on the site. 
+- leaderboard and login for users to track progress. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing and Validating:
+- The site has been tested across all screen sizes for a responsive experience by creating media queries in the CSS file. Throughout my testing of the screen sizing for each page I had to go back through and change some size values in order to have them formatted to work correctly.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
 
-------
+## W3C validator results: 
+## Home page
+### Error 1:
+- Changed the image names to remove the spacings. Also, all images are visible and responsive to screen size. 
+![error - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20home%20page.JPG) 
 
-## FAQ about the uptime script
+### Error 2:
+- P element was inputted as a child of the Unordered list element. This has been corrected and removed as a child of that element. 
+![error2 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20home%20page.JPG)
 
-**Why have you added this script?**
+### Error 3: 
+- removed UL element inside other UL.
+![error3 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20home%20page.JPG)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Error 4: 
+- This error has been corrected, two sections have the same CSS styling, therefore same ID had been applied. 
+![error 4 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%204%20-%20home%20page.JPG)
 
-**How will this affect me?**
+## Membership Page 
+### Error 1: 
+- This error has been corrected. 
+![error 2 - membership page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%202%20-%20membership%20page.JPG)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Error 2: 
+- This error has been corrected, two ID's used in more than one element. They had the same CSS styling, therefore same ID had been applied. (monthly and prices) 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Contact Page
+### Error 1: 
+- remove the type from contact page to correct thie below error. 
+![error-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20contact%20page.JPG)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Error 2: 
+- replace for attribute with value to correct below error. 
+![error2-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20contact%20page.JPG)
 
-**So….?**
+### Error 3: 
+- replace for attribute with id to correct below error. 
+![error3-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20contact%20page.JPG)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## W3C CSS Validator Results:
+![css validator](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/css%20validator.JPG)
 
-**Can I opt out?**
+## Lighthouse Testing - DevTool:
+- Mobile test results:
+![lighthouse-mobile](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-mobile.JPG)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Desktop test Results:
+![lighthouse-desktop](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-desktop.JPG)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Other testing:
+- All nav links when clicked perform the correct function to bring the user to the correct html pages.
 
-**Anything more?**
+- All nav links show a difference in Color when you hover over the link.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- The Video is responsive when the screen size is at 320px. The video also has user controls and will start playing automatically when the user clicks on the page and is muted. 
 
----
+## Deployment: 
+### To create the website: 
+First I began by using the Code Institute Gitpod Full Template.
 
-Happy coding!
+Secondly, I had to then 'create a new repository' using the template.
+I gave it a repo name, then clicked create repository. 
+From there I clicked the green 'Gitpod' button to begin my coding. 
+
+### How I committed my work throughout the project:
+
+- git add .  - I typed this into the terminal to add the files to the staging area. 
+- git commit -m "explaining the updates" - I typed this command into the terminal to commit changes to the local repository. 
+- git push - this pushes all committed changes to the GitHub repository.
+
+## To publish the site link:
+- Login to GitHub, go to your Repository.
+
+- Go to the "Settings" Button on the menu and down to the 'pages' option. 
+
+- Go to "Source", change to "Master Branch".
+
+- Click Save and then back into the pages section to find your published link for the site.
+
+Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
+
+
+## Credits: 
+### Content: 
+All images (excluding the logo - created by me) and the video was taken from the free download site below: 
+[Pixabay](https://pixabay.com/)
+
+README file inspiration and aid from the below example provided by mentor:
+[readme example](https://github.com/TechCentreUK/Eco-Print/blob/master/README.md)
+
+The pricings were copied from the below site: 
+[Fyre gyms](https://www.fyregyms.ie/)
+
+Inspiration from another gym website: 
+[Westside](https://westsidegym.ie/)
+
+## Tools: 
+- [tinyjpg](https://tinyjpg.com/) - To compress my photos
+- [W3C Schools](https://www.w3schools.com/html/) - aid for HTML code 
+- [W3C Schools](https://www.w3schools.com/css/default.asp) - aid for CSS code
+- [W3C Validator](https://validator.w3.org/#validate_by_input) - to validate HTML
+- [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - to validate CSS
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - to aid with code inspect of webpage 
+- [Project inspiration](https://github.com/TechCentreUK/Eco-Print) - inspired and aided my project README. 

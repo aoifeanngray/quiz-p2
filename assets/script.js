@@ -12,7 +12,6 @@ nextButton.addEventListener('click', () => {
   setNextQuestion()
 })
 
-
 function startGame () {
     console.log('started')
     startButton.classList.add('hide')

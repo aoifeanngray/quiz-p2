@@ -86,60 +86,27 @@ Once the quesstions have been completed you will be given the option to play aga
 - On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
 
 ## W3C validator results: 
-## Home page
+## Main page
 ### Error 1:
-- Changed the image names to remove the spacings. Also, all images are visible and responsive to screen size. 
-![error - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20home%20page.JPG) 
+-  
+![error - home page]() 
 
 ### Error 2:
-- P element was inputted as a child of the Unordered list element. This has been corrected and removed as a child of that element. 
-![error2 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20home%20page.JPG)
-
-### Error 3: 
-- removed UL element inside other UL.
-![error3 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20home%20page.JPG)
-
-### Error 4: 
-- This error has been corrected, two sections have the same CSS styling, therefore same ID had been applied. 
-![error 4 - home page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%204%20-%20home%20page.JPG)
-
-## Membership Page 
-### Error 1: 
-- This error has been corrected. 
-![error 2 - membership page](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%202%20-%20membership%20page.JPG)
-
-### Error 2: 
-- This error has been corrected, two ID's used in more than one element. They had the same CSS styling, therefore same ID had been applied. (monthly and prices) 
-
-## Contact Page
-### Error 1: 
-- remove the type from contact page to correct thie below error. 
-![error-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error%20-%20contact%20page.JPG)
-
-### Error 2: 
-- replace for attribute with value to correct below error. 
-![error2-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error2%20-%20contact%20page.JPG)
-
-### Error 3: 
-- replace for attribute with id to correct below error. 
-![error3-contact](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/error3%20-%20contact%20page.JPG)
+-  
+![error2 - home page]()
 
 ## W3C CSS Validator Results:
-![css validator](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/css%20validator.JPG)
+![css validator]()
 
 ## Lighthouse Testing - DevTool:
 - Mobile test results:
-![lighthouse-mobile](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-mobile.JPG)
+![lighthouse-mobile](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/mobile%20-%20lighthouse.JPG?raw=true)
 
 - Desktop test Results:
-![lighthouse-desktop](https://raw.githubusercontent.com/aoifeanngray/ASPIREGYMS/master/readme-images/lighthouse-desktop.JPG)
+![lighthouse-desktop](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/Desktop%20-%20lighthouse%20-%20Copy.JPG?raw=true)
 
 ## Other testing:
-- All nav links when clicked perform the correct function to bring the user to the correct html pages.
-
-- All nav links show a difference in Color when you hover over the link.
-
-- The Video is responsive when the screen size is at 320px. The video also has user controls and will start playing automatically when the user clicks on the page and is muted. 
+- ensuring when buttons clicked they respond. 
 
 ## Deployment: 
 ### To create the website: 
@@ -160,32 +127,31 @@ From there I clicked the green 'Gitpod' button to begin my coding.
 
 - Go to the "Settings" Button on the menu and down to the 'pages' option. 
 
-- Go to "Source", change to "Master Branch".
+- Go to "Source", change to "Main".
 
 - Click Save and then back into the pages section to find your published link for the site.
 
-Link to view: [here](https://aoifeanngray.github.io/ASPIREGYMS/)
+Link to view: [here](https://aoifeanngray.github.io/quiz-p2/)
 
 
 ## Credits: 
 ### Content: 
-All images (excluding the logo - created by me) and the video was taken from the free download site below: 
-[Pixabay](https://pixabay.com/)
-
 README file inspiration and aid from the below example provided by mentor:
 [readme example](https://github.com/TechCentreUK/Eco-Print/blob/master/README.md)
 
-The pricings were copied from the below site: 
-[Fyre gyms](https://www.fyregyms.ie/)
+Content inspirations:
+[Quiz game](https://www.youtube.com/watch?app=desktop&v=riDzcEQbX6k&feature=youtu.be)
+[stopwatch](https://www.youtube.com/watch?v=fF-vtP3sjPc)
 
-Inspiration from another gym website: 
-[Westside](https://westsidegym.ie/)
+Pub quiz questions from below site: 
+[Pub quiz Q](https://www.lancs.live/whats-on/whats-on-news/50-general-knowledge-quiz-questions-19832752)
 
 ## Tools: 
-- [tinyjpg](https://tinyjpg.com/) - To compress my photos
 - [W3C Schools](https://www.w3schools.com/html/) - aid for HTML code 
 - [W3C Schools](https://www.w3schools.com/css/default.asp) - aid for CSS code
 - [W3C Validator](https://validator.w3.org/#validate_by_input) - to validate HTML
 - [W3C Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - to validate CSS
 - [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) - to aid with code inspect of webpage 
 - [Project inspiration](https://github.com/TechCentreUK/Eco-Print) - inspired and aided my project README. 
+- [Quiz game](https://www.youtube.com/watch?app=desktop&v=riDzcEQbX6k&feature=youtu.be)
+- [stopwatch](https://www.youtube.com/watch?v=fF-vtP3sjPc)

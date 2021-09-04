@@ -85,18 +85,22 @@ Once the quesstions have been completed you will be given the option to play aga
 
 - On completion of my testing, I then put my code through validators to ensure my code was up to standard, to identify error so they can be corrected. I used the W3C validator for HTML and Jigsaw Validator for CSS.
 
+## JSHint results: 
+## Main page
+### Error 1:
+-  Semi Colons missing. This is true but these are not mandatory to include in JS as you can see in the below research. They tend to slow down the movement of the page. 
+![error - main page](https://raw.githubusercontent.com/aoifeanngray/quiz-p2/94348c20e46140e1190d99ebf4f2f83aca2496b1/readme-images/javascript.JPG) 
+
 ## W3C validator results: 
 ## Main page
 ### Error 1:
--  
-![error - home page]() 
+-  the below errors arose. Deletion from css file to correct. 
+![error - home page](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/css%20errors.JPG?raw=true) 
+Result: ![css validator](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/css%20validation.JPG?raw=true)
 
-### Error 2:
--  
-![error2 - home page]()
-
-## W3C CSS Validator Results:
-![css validator]()
+## HTML validation:
+-  No errors presented.
+![no errors - main page](https://github.com/aoifeanngray/quiz-p2/blob/main/readme-images/html%20validator.JPG?raw=true)
 
 ## Lighthouse Testing - DevTool:
 - Mobile test results:

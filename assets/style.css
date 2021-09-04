@@ -34,13 +34,6 @@ body.correct {
     font-size: 40px;
 }
 
-
-/*styling for the page links in Nav bar*/
-
-#quiz {
-    float: center;
-}
-
 /*styling for question display*/
 .question {
     font-weight: bolder;

@@ -11,7 +11,7 @@ nextButton.addEventListener('click', () => {
   currentQuestionIndex++
   setNextQuestion()
 })
-
+// begin game: 
 function startGame () {
     console.log('started')
     startButton.classList.add('hide')
@@ -24,6 +24,7 @@ function setNextQuestion () {
   resetState()
     showQuestion(shuffledQuestions[currentQuestionIndex])
 }
+// make question appear:
 function showQuestion (question) {
     questionElement.innerText = question.question
     question.answers.forEach(answer => {
@@ -37,7 +38,7 @@ function showQuestion (question) {
     answerButtonsElement.appendChild(button)
       })
     }
-
+// reset game: 
     function resetState() {
       clearStatusClass(document.body)
       nextButton.classList.add('hide')
@@ -45,6 +46,7 @@ function showQuestion (question) {
         answerButtonsElement.removeChild(answerButtonsElement.firstChild)
       }
     }
+// select answers :
 function selectAnswer (e) {
   const selectedButton = e.target 
   const correct = selectedButton.dataset.correct
@@ -86,6 +88,7 @@ function setStatusClass(element, correct) {
     element.classList.remove('wrong')
   }
 
+  // Questions and answers list: 
 const questions = [
     {
       question: 'What is the capital of Poland?',
@@ -138,6 +141,7 @@ const questions = [
 },
 ]
 
+// Stopwatch Javascript: 
 var ss = document.getElementsByClassName('stopwatch');
 
 [].forEach.call(ss, function (s) {

@@ -127,6 +127,30 @@ const questions = [
     { text: 'Seaweed', correct: false }
   ]
 },
+{ question: 'Who is the only person in the UK who is allowed to drive without a licence?',
+answers: [
+  { text: 'Borris Johnson', correct: false },
+  { text: 'The Queen', correct: true }
+]
+},
+{ question: 'How many countries still have the shilling as currency?',
+answers: [
+  { text: 'none', correct: false },
+  { text: 'Four - Kenya, Uganda, Tanzania and Somalia', correct: true }
+]
+},
+{ question: 'What colour is a giraffes tongue?',
+answers: [
+  { text: 'blue', correct: true },
+  { text: 'red', correct: false }
+]
+},
+{ question: 'What year was the first series of X Factor?',
+answers: [
+  { text: '2004', correct: true },
+  { text: '2002', correct: false }
+]
+},
 ]
 
 // Stopwatch Javascript: 
